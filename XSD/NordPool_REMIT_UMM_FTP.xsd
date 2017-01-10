@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0">
+  <xs:import namespace="http://microsoft.com/wsdl/types/" />
+  <xs:element name="Area" nillable="true" type="Area" />
+  <xs:complexType name="Area">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Code" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CodeType" type="CodeType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="CodeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="EIC" />
+      <xs:enumeration value="ACER" />
+      <xs:enumeration value="LEI" />
+      <xs:enumeration value="BIC" />
+      <xs:enumeration value="GS1" />
+      <xs:enumeration value="Unknown" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Asset" nillable="true" type="Asset" />
+  <xs:complexType name="Asset">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Code" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CodeType" type="CodeType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Connection" nillable="true" type="Connection" />
+  <xs:complexType name="Connection">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="InArea" type="Area" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OutArea" type="Area" />
+      <xs:element minOccurs="1" maxOccurs="1" name="InstalledCapacity" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UnitOfMeasurement" type="UnitOfMeasurement" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TimePeriods" type="ArrayOfEventTimePeriod" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="UnitOfMeasurement">
+    <xs:list>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="MW" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:list>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfEventTimePeriod">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EventTimePeriod" nillable="true" type="EventTimePeriod" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EventTimePeriod">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="UnavailableCapacity" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AvailableCapacity" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EventStart" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EventStop" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EventTimePeriod" nillable="true" type="EventTimePeriod" />
+  <xs:element name="GenerationInformation" nillable="true" type="GenerationInformation" />
+  <xs:complexType name="GenerationInformation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="InstalledCapacity" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MarketParticipant" nillable="true" type="MarketParticipant" />
+  <xs:complexType name="MarketParticipant">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Code" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CodeType" type="CodeType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Message" nillable="true" type="Message" />
+  <xs:complexType name="Message">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="MessageType" type="MessageType" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UnavailabilityType" nillable="true" type="UnavailabilityType" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ReasonCode" nillable="true" type="ReasonCode" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EventStatus" nillable="true" type="EventStatus" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PublicationDate" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EventStart" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EventStop" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UnavailabilityReason" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Remarks" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Connections" type="ArrayOfConnection" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Units" type="ArrayOfUnit" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Assets" type="ArrayOfAsset" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MarketParticipants" type="ArrayOfMarketParticipant" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CancellationReason" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MessageId" xmlns:q1="http://microsoft.com/wsdl/types/" type="q1:guid" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Version" nillable="true" type="xs:unsignedShort" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="MessageType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ProductionUnavailability" />
+      <xs:enumeration value="ConsumptionUnavailability" />
+      <xs:enumeration value="TransmissionUnavailability" />
+      <xs:enumeration value="OtherUnavailability" />
+      <xs:enumeration value="MarketInformation" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="UnavailabilityType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Planned" />
+      <xs:enumeration value="Unplanned" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ReasonCode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Failure" />
+      <xs:enumeration value="ForeseenMaintenance" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="EventStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Active" />
+      <xs:enumeration value="Inactive" />
+      <xs:enumeration value="Dismissed" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfConnection">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Connection" nillable="true" type="Connection" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfUnit">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Unit" nillable="true" type="Unit" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Unit">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="UnitType" type="UnitType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Eic" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UnitOfMeasurement" type="UnitOfMeasurement" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Area" type="Area" />
+      <xs:element minOccurs="1" maxOccurs="1" name="InstalledCapacity" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PowerFeedIn" nillable="true" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FuelType" nillable="true" type="FuelType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GenerationInformation" type="GenerationInformation" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TimePeriods" type="ArrayOfEventTimePeriod" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="UnitType">
+    <xs:list>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Production" />
+          <xs:enumeration value="Generation" />
+          <xs:enumeration value="Consumption" />
+          <xs:enumeration value="Other" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:list>
+  </xs:simpleType>
+  <xs:simpleType name="FuelType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Biomass" />
+      <xs:enumeration value="FossilBrownCoalOrLignite" />
+      <xs:enumeration value="FossilCoalDerivedGas" />
+      <xs:enumeration value="FossilGas" />
+      <xs:enumeration value="FossilHardCoal" />
+      <xs:enumeration value="FossilOil" />
+      <xs:enumeration value="FossilOilShale" />
+      <xs:enumeration value="FossilPeat" />
+      <xs:enumeration value="Geothermal" />
+      <xs:enumeration value="HydroPumpedStorage" />
+      <xs:enumeration value="HydroRunOfRiverAndPoundage" />
+      <xs:enumeration value="HydroWaterReservoir" />
+      <xs:enumeration value="Marine" />
+      <xs:enumeration value="Nuclear" />
+      <xs:enumeration value="OtherRenewable" />
+      <xs:enumeration value="Solar" />
+      <xs:enumeration value="Waste" />
+      <xs:enumeration value="WindOffshore" />
+      <xs:enumeration value="WindOnshore" />
+      <xs:enumeration value="Other" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfAsset">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Asset" nillable="true" type="Asset" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfMarketParticipant">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MarketParticipant" nillable="true" type="MarketParticipant" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Unit" nillable="true" type="Unit" />
+  <xs:element name="UmmXmlGenerated" nillable="true" type="UmmXmlGenerated" />
+  <xs:complexType name="UmmXmlGenerated">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Filename" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="XML" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CodeType" type="CodeType" />
+  <xs:element name="EventStatus" type="EventStatus" />
+  <xs:element name="FuelType" type="FuelType" />
+  <xs:element name="MessageType" type="MessageType" />
+  <xs:element name="ReasonCode" type="ReasonCode" />
+  <xs:element name="UnavailabilityType" type="UnavailabilityType" />
+  <xs:element name="UnitOfMeasurement" type="UnitOfMeasurement" />
+  <xs:element name="UnitType" type="UnitType" />
+</xs:schema>
