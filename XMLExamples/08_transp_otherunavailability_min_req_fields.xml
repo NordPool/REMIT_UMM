@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MessageType>OtherUnavailability</MessageType>
+	<UnavailabilityType>Unplanned</UnavailabilityType>
+	<ReasonCode>Failure</ReasonCode>
+	<EventStatus>Active</EventStatus>
+	<PublicationDate>2016-11-07T22:52:42.7642209Z</PublicationDate>
+	<EventStart>2016-11-09T07:00:00Z</EventStart>
+	<EventStop>2016-11-09T11:00:00Z</EventStop>
+	<Connections/>
+	<Units>
+		<Unit>
+			<UnitType>Other</UnitType>
+			<Name>Test Unit</Name>
+			<Eic>34W1234512345E34</Eic>
+			<UnitOfMeasurement>MW</UnitOfMeasurement>
+			<Area>
+				<Name>FI</Name>
+				<Code>10YFI-1--------U</Code>
+				<CodeType>EIC</CodeType>
+			</Area>
+			<InstalledCapacity xsi:nil="true"/>
+			<PowerFeedIn xsi:nil="true"/>
+			<FuelType xsi:nil="true"/>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity xsi:nil="true"/>
+					<AvailableCapacity>56</AvailableCapacity>
+					<EventStart>2016-11-09T07:00:00Z</EventStart>
+					<EventStop>2016-11-09T11:00:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Unit>
+	</Units>
+	<MessageId>397da995-3ba5-4360-ba02-ecb31d997bbe</MessageId>
+	<Version>1</Version>
+</Message>

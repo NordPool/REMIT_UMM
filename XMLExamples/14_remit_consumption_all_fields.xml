@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MessageType>ConsumptionUnavailability</MessageType>
+	<UnavailabilityType>Planned</UnavailabilityType>
+	<ReasonCode>ForeseenMaintenance</ReasonCode>
+	<EventStatus>Active</EventStatus>
+	<PublicationDate>2016-11-08T00:21:31.2246485Z</PublicationDate>
+	<EventStart>2016-11-09T23:00:00Z</EventStart>
+	<EventStop>2016-11-13T17:00:00Z</EventStop>
+	<UnavailabilityReason>Maintenance-001</UnavailabilityReason>
+	<Remarks>construction work</Remarks>
+	<Connections/>
+	<Units>
+		<Unit>
+			<UnitType>Consumption</UnitType>
+			<Name>Test Consumption Unit</Name>
+			<Eic>12W1234512345P56</Eic>
+			<UnitOfMeasurement>MW</UnitOfMeasurement>
+			<Area>
+				<Name>CZ</Name>
+				<Code>10YCZ-CEPS-----N</Code>
+				<CodeType>EIC</CodeType>
+			</Area>
+			<InstalledCapacity>450</InstalledCapacity>
+			<PowerFeedIn xsi:nil="true"/>
+			<FuelType xsi:nil="true"/>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>148</UnavailableCapacity>
+					<AvailableCapacity>302</AvailableCapacity>
+					<EventStart>2016-11-09T23:00:00Z</EventStart>
+					<EventStop>2016-11-12T12:00:00Z</EventStop>
+				</EventTimePeriod>
+				<EventTimePeriod>
+					<UnavailableCapacity>244</UnavailableCapacity>
+					<AvailableCapacity>206</AvailableCapacity>
+					<EventStart>2016-11-12T12:00:00Z</EventStart>
+					<EventStop>2016-11-12T17:00:00Z</EventStop>
+				</EventTimePeriod>
+				<EventTimePeriod>
+					<UnavailableCapacity>12</UnavailableCapacity>
+					<AvailableCapacity>438</AvailableCapacity>
+					<EventStart>2016-11-12T17:00:00Z</EventStart>
+					<EventStop>2016-11-13T17:00:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Unit>
+	</Units>
+	<MarketParticipants>
+		<MarketParticipant>
+			<Name>Midtjysk Elhandel A/S</Name>
+			<Code>54930036WXPYDVE0EV27</Code>
+			<CodeType>LEI</CodeType>
+		</MarketParticipant>
+		<MarketParticipant>
+			<Name>FERROATLANTICA, S.A. SOCIEDAD UNIPERSONAL</Name>
+			<Code>18XFERRG-1234-1Q</Code>
+			<CodeType>EIC</CodeType>
+		</MarketParticipant>
+		<MarketParticipant>
+			<Name>Energi Danmark A/S</Name>
+			<Code>A00000085.DK</Code>
+			<CodeType>ACER</CodeType>
+		</MarketParticipant>
+	</MarketParticipants>
+	<MessageId>923cf7e6-ff97-4619-a8bf-74e209a04454</MessageId>
+	<Version>1</Version>
+</Message>

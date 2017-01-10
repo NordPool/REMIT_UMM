@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MessageType>ConsumptionUnavailability</MessageType>
+	<UnavailabilityType>Unplanned</UnavailabilityType>
+	<ReasonCode xsi:nil="true"/>
+	<EventStatus>Active</EventStatus>
+	<PublicationDate>2016-11-08T00:10:10.398153Z</PublicationDate>
+	<EventStart>2016-11-10T07:00:00Z</EventStart>
+	<EventStop>2016-11-12T12:10:00Z</EventStop>
+	<UnavailabilityReason>failure</UnavailabilityReason>
+	<Connections/>
+	<Units>
+		<Unit>
+			<UnitType>Consumption</UnitType>
+			<Name>Test Consumption Unit</Name>
+			<Eic>33W1234512345P22</Eic>
+			<UnitOfMeasurement>MW</UnitOfMeasurement>
+			<Area>
+				<Name>CH</Name>
+				<Code>10YCH-SWISSGRIDZ</Code>
+				<CodeType>EIC</CodeType>
+			</Area>
+			<InstalledCapacity>264</InstalledCapacity>
+			<PowerFeedIn xsi:nil="true"/>
+			<FuelType xsi:nil="true"/>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>133</UnavailableCapacity>
+					<AvailableCapacity>131</AvailableCapacity>
+					<EventStart>2016-11-10T07:00:00Z</EventStart>
+					<EventStop>2016-11-12T12:10:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Unit>
+	</Units>
+	<MarketParticipants>
+		<MarketParticipant>
+			<Name>FERROATLANTICA, S.A. SOCIEDAD UNIPERSONAL</Name>
+			<Code>18XFERRG-1234-1Q</Code>
+			<CodeType>EIC</CodeType>
+		</MarketParticipant>
+	</MarketParticipants>
+	<MessageId>ae8b4710-56ad-40cf-afa0-4c54c003a100</MessageId>
+	<Version>1</Version>
+</Message>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MessageType>TransmissionUnavailability</MessageType>
+	<UnavailabilityType>Planned</UnavailabilityType>
+	<ReasonCode>ForeseenMaintenance</ReasonCode>
+	<EventStatus>Active</EventStatus>
+	<PublicationDate>2016-11-07T22:38:40.1625245Z</PublicationDate>
+	<EventStart>2016-11-23T05:00:00Z</EventStart>
+	<EventStop>2016-11-24T17:00:00Z</EventStop>
+	<UnavailabilityReason>Planned Limitation</UnavailabilityReason>
+	<Remarks>construction work</Remarks>
+	<Connections>
+		<Connection>
+			<Name>DK1 -&gt; SE3, capacity: 680</Name>
+			<InArea>
+				<Name>SE3</Name>
+				<Code>10Y1001A1001A46L</Code>
+				<CodeType>EIC</CodeType>
+			</InArea>
+			<OutArea>
+				<Name>DK1</Name>
+				<Code>10YDK-1--------W</Code>
+				<CodeType>EIC</CodeType>
+			</OutArea>
+			<InstalledCapacity>680</InstalledCapacity>
+			<UnitOfMeasurement/>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>340</UnavailableCapacity>
+					<AvailableCapacity>340</AvailableCapacity>
+					<EventStart>2016-11-23T05:00:00Z</EventStart>
+					<EventStop>2016-11-23T17:00:00Z</EventStop>
+				</EventTimePeriod>
+				<EventTimePeriod>
+					<UnavailableCapacity>80</UnavailableCapacity>
+					<AvailableCapacity>600</AvailableCapacity>
+					<EventStart>2016-11-23T17:00:00Z</EventStart>
+					<EventStop>2016-11-24T17:00:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Connection>
+		<Connection>
+			<Name>DK1 → SE3</Name>
+			<InArea>
+				<Name>DK1</Name>
+				<Code>10YDK-1--------W</Code>
+				<CodeType>EIC</CodeType>
+			</InArea>
+			<OutArea>
+				<Name>SE3</Name>
+				<Code>10Y1001A1001A46L</Code>
+				<CodeType>EIC</CodeType>
+			</OutArea>
+			<InstalledCapacity>470</InstalledCapacity>
+			<UnitOfMeasurement/>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>100</UnavailableCapacity>
+					<AvailableCapacity>370</AvailableCapacity>
+					<EventStart>2016-11-23T05:00:00Z</EventStart>
+					<EventStop>2016-11-23T17:00:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Connection>
+		<Connection>
+			<Name>DK1A → DK1</Name>
+			<InArea>
+				<Name>DK1A</Name>
+				<Code>10YDK-1-------AA</Code>
+				<CodeType>EIC</CodeType>
+			</InArea>
+			<OutArea>
+				<Name>DK1</Name>
+				<Code>10YDK-1--------W</Code>
+				<CodeType>EIC</CodeType>
+			</OutArea>
+			<InstalledCapacity>2212</InstalledCapacity>
+			<UnitOfMeasurement/>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>340</UnavailableCapacity>
+					<AvailableCapacity>1872</AvailableCapacity>
+					<EventStart>2016-11-23T05:00:00Z</EventStart>
+					<EventStop>2016-11-23T17:00:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Connection>
+		<Connection>
+			<Name>DK1 → DK1A</Name>
+			<InArea>
+				<Name>DK1</Name>
+				<Code>10YDK-1--------W</Code>
+				<CodeType>EIC</CodeType>
+			</InArea>
+			<OutArea>
+				<Name>DK1A</Name>
+				<Code>10YDK-1-------AA</Code>
+				<CodeType>EIC</CodeType>
+			</OutArea>
+			<InstalledCapacity>2272</InstalledCapacity>
+			<UnitOfMeasurement/>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>370</UnavailableCapacity>
+					<AvailableCapacity>1902</AvailableCapacity>
+					<EventStart>2016-11-23T05:00:00Z</EventStart>
+					<EventStop>2016-11-23T17:00:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Connection>
+	</Connections>
+	<Units/>
+	<Assets>
+		<Asset>
+			<Name>Konti-Skan 1</Name>
+			<Code>10T-DK-SE-00001D</Code>
+			<CodeType>EIC</CodeType>
+		</Asset>
+		<Asset>
+			<Name>Konti-Skan 2</Name>
+			<Code>10T-DK-SE-00002B</Code>
+			<CodeType>EIC</CodeType>
+		</Asset>
+	</Assets>
+	<MarketParticipants>
+		<MarketParticipant>
+			<Name>Barclays Bank PLC</Name>
+			<Code>11XBARCAP------7</Code>
+			<CodeType>EIC</CodeType>
+		</MarketParticipant>
+		<MarketParticipant>
+			<Name>Energi Danmark A/S</Name>
+			<Code>549300JN1F17UXJMM315</Code>
+			<CodeType>LEI</CodeType>
+		</MarketParticipant>
+		<MarketParticipant>
+			<Name>Midtjysk Elhandel A/S</Name>
+			<Code>A0000022F.DK</Code>
+			<CodeType>ACER</CodeType>
+		</MarketParticipant>
+	</MarketParticipants>
+	<MessageId>a7afd452-371b-405f-9fb2-22bb4749300c</MessageId>
+	<Version>2</Version>
+</Message>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>ProductionUnavailability</MessageType>
+  <UnavailabilityType>Planned</UnavailabilityType>
+  <ReasonCode>ForeseenMaintenance</ReasonCode>
+  <EventStatus>Active</EventStatus>
+  <PublicationDate>2016-09-29T07:45:50.038898Z</PublicationDate>
+  <EventStart xsi:nil="true" />
+  <EventStop xsi:nil="true" />
+  <Connections />
+  <Units>
+    <Unit>
+      <UnitType>Generation</UnitType>
+      <Name>Olkiluoto 2</Name>
+      <Eic>44W-T-YV-0000034</Eic>
+      <UnitOfMeasurement>MW</UnitOfMeasurement>
+      <Area>
+        <Name>FI</Name>
+        <Code>10YFI-1--------U</Code>
+        <CodeType>EIC</CodeType>
+      </Area>
+      <InstalledCapacity>880</InstalledCapacity>
+      <PowerFeedIn xsi:nil="true" />
+      <FuelType>Nuclear</FuelType>
+      <GenerationInformation>
+        <Name>B2</Name>
+        <InstalledCapacity>880</InstalledCapacity>
+      </GenerationInformation>
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>260</UnavailableCapacity>
+          <AvailableCapacity>620</AvailableCapacity>
+          <EventStart>2016-09-16T18:00:00Z</EventStart>
+          <EventStop>2016-09-16T19:00:00Z</EventStop>
+        </EventTimePeriod>
+        <EventTimePeriod>
+          <UnavailableCapacity>380</UnavailableCapacity>
+          <AvailableCapacity>500</AvailableCapacity>
+          <EventStart>2016-09-16T19:00:00Z</EventStart>
+          <EventStop>2016-09-16T19:30:00Z</EventStop>
+        </EventTimePeriod>
+        <EventTimePeriod>
+          <UnavailableCapacity>260</UnavailableCapacity>
+          <AvailableCapacity>620</AvailableCapacity>
+          <EventStart>2016-09-16T19:30:00Z</EventStart>
+          <EventStop>2016-09-16T21:15:00Z</EventStop>
+        </EventTimePeriod>
+        <EventTimePeriod>
+          <UnavailableCapacity>30</UnavailableCapacity>
+          <AvailableCapacity>850</AvailableCapacity>
+          <EventStart>2016-09-16T21:15:00Z</EventStart>
+          <EventStop>2016-09-16T22:15:00Z</EventStop>
+        </EventTimePeriod>
+        <EventTimePeriod>
+          <UnavailableCapacity>0</UnavailableCapacity>
+          <AvailableCapacity>880</AvailableCapacity>
+          <EventStart>2016-09-16T22:15:00Z</EventStart>
+          <EventStop>2016-09-16T23:15:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Unit>
+  </Units>
+  <MarketParticipants>
+    <MarketParticipant>
+      <Name>PVO Power Management Oy</Name>
+      <ACER>A00000285.FI</ACER>
+    </MarketParticipant>
+  </MarketParticipants>
+  <MessageId>efcf5de2-30ce-4aac-93d3-2e353a6755ae</MessageId>
+  <Version>6</Version>
+</Message>

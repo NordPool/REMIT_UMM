@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>ProductionUnavailability</MessageType>
+  <UnavailabilityType>Planned</UnavailabilityType>
+  <ReasonCode>ForeseenMaintenance</ReasonCode>
+  <EventStatus>Active</EventStatus>
+  <PublicationDate>2016-09-28T14:18:50.5574448Z</PublicationDate>
+  <EventStart xsi:nil="true" />
+  <EventStop xsi:nil="true" />
+  <Connections />
+  <Units>
+    <Unit>
+      <UnitType>Production</UnitType>
+      <Name>Oskarshamn 1</Name>
+      <Eic>46WPU0000000059C</Eic>
+      <UnitOfMeasurement>MW</UnitOfMeasurement>
+      <Area>
+        <Name>SE3</Name>
+        <Code>10Y1001A1001A46L</Code>
+        <CodeType>EIC</CodeType>
+      </Area>
+      <InstalledCapacity>473</InstalledCapacity>
+      <PowerFeedIn>0</PowerFeedIn>
+      <FuelType>Nuclear</FuelType>
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>153</UnavailableCapacity>
+          <AvailableCapacity>320</AvailableCapacity>
+          <EventStart>2016-11-02T08:00:00Z</EventStart>
+          <EventStop>2016-11-02T14:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Unit>
+  </Units>
+  <MarketParticipants>
+    <MarketParticipant>
+      <Name>Uniper Global Commodities SE</Name>
+      <EIC>11XEON-H-------8</EIC>
+      <ACER>A0002232K.DE</ACER>
+      <LEI>EBX30MC15ELIMN60BF76</LEI>
+    </MarketParticipant>
+  </MarketParticipants>
+  <MessageId>34bf82c2-7a0e-47c2-8bea-a4efa4e9798d</MessageId>
+  <Version>2</Version>
+</Message>

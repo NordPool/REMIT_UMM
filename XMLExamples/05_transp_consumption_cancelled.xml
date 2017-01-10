@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MessageType>ConsumptionUnavailability</MessageType>
+	<UnavailabilityType>Planned</UnavailabilityType>
+	<ReasonCode>ForeseenMaintenance</ReasonCode>
+	<EventStatus>Dismissed</EventStatus>
+	<PublicationDate>2016-11-07T21:28:17.8499759Z</PublicationDate>
+	<EventStart>2016-11-12T23:00:00</EventStart>
+	<EventStop>2016-11-14T23:00:00</EventStop>
+	<UnavailabilityReason>Maintenance work 15-WR-145</UnavailabilityReason>
+	<Remarks>annual cleaning</Remarks>
+	<Connections/>
+	<Units>
+		<Unit>
+			<UnitType>Consumption</UnitType>
+			<Name>Test Consumption Unit</Name>
+			<Eic>45W123451234512A</Eic>
+			<UnitOfMeasurement>MW</UnitOfMeasurement>
+			<Area>
+				<Name>EE</Name>
+				<Code>10Y1001A1001A39I</Code>
+				<CodeType>EIC</CodeType>
+			</Area>
+			<InstalledCapacity>236</InstalledCapacity>
+			<PowerFeedIn xsi:nil="true"/>
+			<FuelType xsi:nil="true"/>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>114</UnavailableCapacity>
+					<AvailableCapacity>122</AvailableCapacity>
+					<EventStart>2016-11-12T23:00:00</EventStart>
+					<EventStop>2016-11-14T23:00:00</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Unit>
+	</Units>
+	<MarketParticipants>
+		<MarketParticipant>
+			<Name>Telge Kraft AS</Name>
+			<Code>A0000057Z.SE</Code>
+			<CodeType>ACER</CodeType>
+		</MarketParticipant>
+	</MarketParticipants>
+	<CancellationReason>Demonstrate cancellation reason element in xml</CancellationReason>
+	<MessageId>8bf875f0-c14b-43c5-bb5a-488d9f9e8240</MessageId>
+	<Version>2</Version>
+</Message>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>TransmissionUnavailability</MessageType>
+  <UnavailabilityType>Planned</UnavailabilityType>
+  <ReasonCode>ForeseenMaintenance</ReasonCode>
+  <EventStatus>Active</EventStatus>
+  <PublicationDate>2016-09-28T14:25:07.3689192Z</PublicationDate>
+  <EventStart xsi:nil="true" />
+  <EventStop xsi:nil="true" />
+  <Connections>
+    <Connection>
+      <Name>PL → SE4</Name>
+      <InArea>
+        <Name>PL</Name>
+        <Code>10YPL-AREA-----S</Code>
+        <CodeType>EIC</CodeType>
+      </InArea>
+      <OutArea>
+        <Name>SE4</Name>
+        <Code>10Y1001A1001A47J</Code>
+        <CodeType>EIC</CodeType>
+      </OutArea>
+      <InstalledCapacity>600</InstalledCapacity>
+      <UnitOfMeasurement />
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>300</UnavailableCapacity>
+          <AvailableCapacity>300</AvailableCapacity>
+          <EventStart>2016-09-25T22:00:00Z</EventStart>
+          <EventStop>2016-09-26T04:00:00Z</EventStop>
+        </EventTimePeriod>
+        <EventTimePeriod>
+          <UnavailableCapacity>470</UnavailableCapacity>
+          <AvailableCapacity>130</AvailableCapacity>
+          <EventStart>2016-09-26T04:00:00Z</EventStart>
+          <EventStop>2016-09-26T05:00:00Z</EventStop>
+        </EventTimePeriod>
+        <EventTimePeriod>
+          <UnavailableCapacity>600</UnavailableCapacity>
+          <AvailableCapacity>0</AvailableCapacity>
+          <EventStart>2016-09-26T05:00:00Z</EventStart>
+          <EventStop>2016-09-26T19:00:00Z</EventStop>
+        </EventTimePeriod>
+        <EventTimePeriod>
+          <UnavailableCapacity>540</UnavailableCapacity>
+          <AvailableCapacity>60</AvailableCapacity>
+          <EventStart>2016-09-26T19:00:00Z</EventStart>
+          <EventStop>2016-09-26T20:00:00Z</EventStop>
+        </EventTimePeriod>
+        <EventTimePeriod>
+          <UnavailableCapacity>300</UnavailableCapacity>
+          <AvailableCapacity>300</AvailableCapacity>
+          <EventStart>2016-09-26T20:00:00Z</EventStart>
+          <EventStop>2016-09-26T22:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Connection>
+    <Connection>
+      <Name>SE4 → PL</Name>
+      <InArea>
+        <Name>SE4</Name>
+        <Code>10Y1001A1001A47J</Code>
+        <CodeType>EIC</CodeType>
+      </InArea>
+      <OutArea>
+        <Name>PL</Name>
+        <Code>10YPL-AREA-----S</Code>
+        <CodeType>EIC</CodeType>
+      </OutArea>
+      <InstalledCapacity>600</InstalledCapacity>
+      <UnitOfMeasurement />
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>600</UnavailableCapacity>
+          <AvailableCapacity>0</AvailableCapacity>
+          <EventStart>2016-09-25T22:00:00Z</EventStart>
+          <EventStop>2016-09-26T04:00:00Z</EventStop>
+        </EventTimePeriod>
+        <EventTimePeriod>
+          <UnavailableCapacity>327</UnavailableCapacity>
+          <AvailableCapacity>273</AvailableCapacity>
+          <EventStart>2016-09-26T04:00:00Z</EventStart>
+          <EventStop>2016-09-26T05:00:00Z</EventStop>
+        </EventTimePeriod>
+        <EventTimePeriod>
+          <UnavailableCapacity>55</UnavailableCapacity>
+          <AvailableCapacity>545</AvailableCapacity>
+          <EventStart>2016-09-26T05:00:00Z</EventStart>
+          <EventStop>2016-09-26T06:00:00Z</EventStop>
+        </EventTimePeriod>
+        <EventTimePeriod>
+          <UnavailableCapacity>0</UnavailableCapacity>
+          <AvailableCapacity>600</AvailableCapacity>
+          <EventStart>2016-09-26T06:00:00Z</EventStart>
+          <EventStop>2016-09-26T22:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Connection>
+  </Connections>
+  <Units />
+  <Assets>
+    <Asset>
+      <Name>Slupsk-Sternö (SwePol Link)</Name>
+      <Code>10T-PL-SE-000016</Code>
+      <CodeType>EIC</CodeType>
+    </Asset>
+  </Assets>
+  <MarketParticipants>
+    <MarketParticipant>
+      <Name>Affärsverket svenska kraftnät</Name>
+      <ACER>A00000355.SE</ACER>
+    </MarketParticipant>
+  </MarketParticipants>
+  <MessageId>73183371-66a9-46db-bda7-4dc21e5d6b63</MessageId>
+  <Version>3</Version>
+</Message>

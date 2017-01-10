@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MessageType>ProductionUnavailability</MessageType>
+	<UnavailabilityType>Planned</UnavailabilityType>
+	<ReasonCode xsi:nil="true"/>
+	<EventStatus>Active</EventStatus>
+	<PublicationDate>2016-11-07T23:38:38.4961764Z</PublicationDate>
+	<EventStart>2016-11-10T07:00:00Z</EventStart>
+	<EventStop>2016-11-10T17:00:00Z</EventStop>
+	<UnavailabilityReason>planned limitation</UnavailabilityReason>
+	<Connections/>
+	<Units>
+		<Unit>
+			<UnitType>Production</UnitType>
+			<Name>Test Production Unit</Name>
+			<Eic>23W1235412345P77</Eic>
+			<UnitOfMeasurement>MW</UnitOfMeasurement>
+			<Area>
+				<Name>DK1</Name>
+				<Code>10YDK-1--------W</Code>
+				<CodeType>EIC</CodeType>
+			</Area>
+			<InstalledCapacity>600</InstalledCapacity>
+			<PowerFeedIn xsi:nil="true"/>
+			<FuelType>Biomass</FuelType>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>370</UnavailableCapacity>
+					<AvailableCapacity>230</AvailableCapacity>
+					<EventStart>2016-11-10T07:00:00Z</EventStart>
+					<EventStop>2016-11-10T17:00:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Unit>
+	</Units>
+	<MarketParticipants>
+		<MarketParticipant>
+			<Name>PVO Power Management Oy</Name>
+			<Code>A00000285.FI</Code>
+			<CodeType>ACER</CodeType>
+		</MarketParticipant>
+	</MarketParticipants>
+	<MessageId>cde4c091-e0f2-4bfd-b33d-35ec7d83464a</MessageId>
+	<Version>1</Version>
+</Message>

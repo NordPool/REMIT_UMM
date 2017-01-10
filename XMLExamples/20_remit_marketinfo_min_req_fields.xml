@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MessageType>MarketInformation</MessageType>
+	<UnavailabilityType xsi:nil="true"/>
+	<ReasonCode xsi:nil="true"/>
+	<EventStatus>Active</EventStatus>
+	<PublicationDate>2016-11-08T01:19:28.0021872Z</PublicationDate>
+	<EventStart>2016-11-08T23:00:00Z</EventStart>
+	<EventStop>2016-11-09T23:00:00Z</EventStop>
+	<Remarks>During the day Nord Pool will deploy an important upgrade to the REMIT UMM test environment (PPE). The upgrade will clean the data base of published UMMs in the REMIT UMM Test environment. This means that: •\tPublished UMMs in Test system will be deleted •\tUser stored default values in Test system will be deleted After the upgrade you will can continue with your testing activities and publish UMMs as normal. We are sorry for the inconvenience that may be caused.</Remarks>
+	<Connections/>
+	<Units/>
+	<MarketParticipants>
+		<MarketParticipant>
+			<Name>PVO Power Management Oy</Name>
+			<Code>A00000285.FI</Code>
+			<CodeType>ACER</CodeType>
+		</MarketParticipant>
+	</MarketParticipants>
+	<MessageId>bdf9ecb1-2c4d-4e3c-a59e-562043eb37c9</MessageId>
+	<Version>1</Version>
+</Message>

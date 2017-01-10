@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>ConsumptionUnavailability</MessageType>
+  <UnavailabilityType>Planned</UnavailabilityType>
+  <ReasonCode>ForeseenMaintenance</ReasonCode>
+  <EventStatus>Active</EventStatus>
+  <PublicationDate>2016-09-28T14:31:40.1961936Z</PublicationDate>
+  <EventStart xsi:nil="true" />
+  <EventStop xsi:nil="true" />
+  <Connections />
+  <Units>
+    <Unit>
+      <UnitType>Consumption</UnitType>
+      <Name>Hydro Aluminium Rheinwerk: System 1</Name>
+      <Eic>11WD7NORF2L----P</Eic>
+      <UnitOfMeasurement>MW</UnitOfMeasurement>
+      <Area>
+        <Name>DE-Amprion</Name>
+        <Code>10YDE-RWENET---I</Code>
+        <CodeType>EIC</CodeType>
+      </Area>
+      <InstalledCapacity>131</InstalledCapacity>
+      <PowerFeedIn xsi:nil="true" />
+      <FuelType xsi:nil="true" />
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>131</UnavailableCapacity>
+          <AvailableCapacity>0</AvailableCapacity>
+          <EventStart>2016-09-23T22:18:00Z</EventStart>
+          <EventStop>2016-09-23T23:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Unit>
+  </Units>
+  <MarketParticipants>
+    <MarketParticipant>
+      <Name>Hydro Aluminium Rolled Products GmbH</Name>
+      <EIC>37Z000000006860H</EIC>
+      <ACER>A00054076.DE</ACER>
+    </MarketParticipant>
+  </MarketParticipants>
+  <MessageId>ba65144d-ef86-41cb-a513-c8dc6847ec17</MessageId>
+  <Version>2</Version>
+</Message>

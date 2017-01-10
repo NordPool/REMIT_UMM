@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MessageType>ProductionUnavailability</MessageType>
+	<UnavailabilityType>Planned</UnavailabilityType>
+	<ReasonCode>ForeseenMaintenance</ReasonCode>
+	<EventStatus>Active</EventStatus>
+	<PublicationDate>2016-11-07T23:19:35.7029732Z</PublicationDate>
+	<EventStart>2016-11-09T23:00:00Z</EventStart>
+	<EventStop>2016-11-11T23:00:00Z</EventStop>
+	<UnavailabilityReason>Maintenance-001</UnavailabilityReason>
+	<Remarks>replacement</Remarks>
+	<Connections/>
+	<Units>
+		<Unit>
+			<UnitType>Generation</UnitType>
+			<Name>Test unit</Name>
+			<Eic>21W000000080001L</Eic>
+			<UnitOfMeasurement>MW</UnitOfMeasurement>
+			<Area>
+				<Name>SE3</Name>
+				<Code>10Y1001A1001A46L</Code>
+				<CodeType>EIC</CodeType>
+			</Area>
+			<InstalledCapacity>300</InstalledCapacity>
+			<PowerFeedIn xsi:nil="true"/>
+			<FuelType>HydroWaterReservoir</FuelType>
+			<GenerationInformation>
+				<Name>Test Generation Unit</Name>
+				<InstalledCapacity>300</InstalledCapacity>
+			</GenerationInformation>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>90</UnavailableCapacity>
+					<AvailableCapacity>210</AvailableCapacity>
+					<EventStart>2016-11-09T23:00:00Z</EventStart>
+					<EventStop>2016-11-11T23:00:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Unit>
+	</Units>
+	<MarketParticipants>
+		<MarketParticipant>
+			<Name>Midtjysk Elhandel A/S</Name>
+			<Code>A0000022F.DK</Code>
+			<CodeType>ACER</CodeType>
+		</MarketParticipant>
+	</MarketParticipants>
+	<MessageId>4de8c777-27fb-4549-aee9-d686f281aa50</MessageId>
+	<Version>1</Version>
+</Message>

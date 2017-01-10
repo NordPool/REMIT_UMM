@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MessageType>TransmissionUnavailability</MessageType>
+	<UnavailabilityType>Unplanned</UnavailabilityType>
+	<ReasonCode xsi:nil="true"/>
+	<EventStatus>Active</EventStatus>
+	<PublicationDate>2016-11-08T00:30:32.3858525Z</PublicationDate>
+	<EventStart>2016-11-10T09:00:00Z</EventStart>
+	<EventStop>2016-11-10T14:40:00Z</EventStop>
+	<UnavailabilityReason>failure</UnavailabilityReason>
+	<Connections>
+		<Connection>
+			<Name>EE → LV</Name>
+			<InArea>
+				<Name>EE</Name>
+				<Code>10Y1001A1001A39I</Code>
+				<CodeType>EIC</CodeType>
+			</InArea>
+			<OutArea>
+				<Name>LV</Name>
+				<Code>10YLV-1001A00074</Code>
+				<CodeType>EIC</CodeType>
+			</OutArea>
+			<InstalledCapacity>1000</InstalledCapacity>
+			<UnitOfMeasurement/>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>420</UnavailableCapacity>
+					<AvailableCapacity>580</AvailableCapacity>
+					<EventStart>2016-11-10T09:00:00Z</EventStart>
+					<EventStop>2016-11-10T14:40:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Connection>
+		<Connection>
+			<Name>EE -&gt; FI, capacity: 1016</Name>
+			<InArea>
+				<Name>FI</Name>
+				<Code>10YFI-1--------U</Code>
+				<CodeType>EIC</CodeType>
+			</InArea>
+			<OutArea>
+				<Name>EE</Name>
+				<Code>10Y1001A1001A39I</Code>
+				<CodeType>EIC</CodeType>
+			</OutArea>
+			<InstalledCapacity>1016</InstalledCapacity>
+			<UnitOfMeasurement/>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>316</UnavailableCapacity>
+					<AvailableCapacity>700</AvailableCapacity>
+					<EventStart>2016-11-10T09:00:00Z</EventStart>
+					<EventStop>2016-11-10T14:40:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Connection>
+	</Connections>
+	<Units/>
+	<MarketParticipants>
+		<MarketParticipant>
+			<Name>PVO-Vesivoima Oy</Name>
+			<Code>A00000566.FI</Code>
+			<CodeType>ACER</CodeType>
+		</MarketParticipant>
+	</MarketParticipants>
+	<MessageId>3cdc6de4-d50c-4708-b5ef-e86404f42e36</MessageId>
+	<Version>1</Version>
+</Message>

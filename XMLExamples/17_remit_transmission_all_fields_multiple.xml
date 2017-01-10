@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MessageType>TransmissionUnavailability</MessageType>
+	<UnavailabilityType>Planned</UnavailabilityType>
+	<ReasonCode>ForeseenMaintenance</ReasonCode>
+	<EventStatus>Active</EventStatus>
+	<PublicationDate>2016-11-08T00:52:36.6891443Z</PublicationDate>
+	<EventStart>2016-11-16T23:00:00Z</EventStart>
+	<EventStop>2016-11-17T17:00:00Z</EventStop>
+	<UnavailabilityReason>PLANNED LIMITATION GRID</UnavailabilityReason>
+	<Remarks>Limitation due to wind and solar energy feed</Remarks>
+	<Connections>
+		<Connection>
+			<Name>DE-TenneT → SE4</Name>
+			<InArea>
+				<Name>DE-TenneT</Name>
+				<Code>10YDE-EON------1</Code>
+				<CodeType>EIC</CodeType>
+			</InArea>
+			<OutArea>
+				<Name>SE4</Name>
+				<Code>10Y1001A1001A47J</Code>
+				<CodeType>EIC</CodeType>
+			</OutArea>
+			<InstalledCapacity>600</InstalledCapacity>
+			<UnitOfMeasurement/>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>530</UnavailableCapacity>
+					<AvailableCapacity>70</AvailableCapacity>
+					<EventStart>2016-11-16T23:00:00Z</EventStart>
+					<EventStop>2016-11-17T07:00:00Z</EventStop>
+				</EventTimePeriod>
+				<EventTimePeriod>
+					<UnavailableCapacity>400</UnavailableCapacity>
+					<AvailableCapacity>200</AvailableCapacity>
+					<EventStart>2016-11-17T07:00:00Z</EventStart>
+					<EventStop>2016-11-17T10:00:00Z</EventStop>
+				</EventTimePeriod>
+				<EventTimePeriod>
+					<UnavailableCapacity>325</UnavailableCapacity>
+					<AvailableCapacity>275</AvailableCapacity>
+					<EventStart>2016-11-17T10:00:00Z</EventStart>
+					<EventStop>2016-11-17T12:00:00Z</EventStop>
+				</EventTimePeriod>
+				<EventTimePeriod>
+					<UnavailableCapacity>100</UnavailableCapacity>
+					<AvailableCapacity>500</AvailableCapacity>
+					<EventStart>2016-11-17T12:00:00Z</EventStart>
+					<EventStop>2016-11-17T14:00:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Connection>
+		<Connection>
+			<Name>SE4 → DE-TenneT</Name>
+			<InArea>
+				<Name>SE4</Name>
+				<Code>10Y1001A1001A47J</Code>
+				<CodeType>EIC</CodeType>
+			</InArea>
+			<OutArea>
+				<Name>DE-TenneT</Name>
+				<Code>10YDE-EON------1</Code>
+				<CodeType>EIC</CodeType>
+			</OutArea>
+			<InstalledCapacity>615</InstalledCapacity>
+			<UnitOfMeasurement/>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>490</UnavailableCapacity>
+					<AvailableCapacity>125</AvailableCapacity>
+					<EventStart>2016-11-16T23:00:00Z</EventStart>
+					<EventStop>2016-11-17T09:00:00Z</EventStop>
+				</EventTimePeriod>
+				<EventTimePeriod>
+					<UnavailableCapacity>376</UnavailableCapacity>
+					<AvailableCapacity>239</AvailableCapacity>
+					<EventStart>2016-11-17T09:00:00Z</EventStart>
+					<EventStop>2016-11-17T12:00:00Z</EventStop>
+				</EventTimePeriod>
+				<EventTimePeriod>
+					<UnavailableCapacity>15</UnavailableCapacity>
+					<AvailableCapacity>600</AvailableCapacity>
+					<EventStart>2016-11-17T12:00:00Z</EventStart>
+					<EventStop>2016-11-17T17:00:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Connection>
+	</Connections>
+	<Units/>
+	<Assets>
+		<Asset>
+			<Name>Herrenwyk-Kruseberg (Baltic cable)</Name>
+			<Code>10T-DE-SE-000015</Code>
+			<CodeType>EIC</CodeType>
+		</Asset>
+	</Assets>
+	<MarketParticipants>
+		<MarketParticipant>
+			<Name>FERROATLANTICA, S.A. SOCIEDAD UNIPERSONAL</Name>
+			<Code>18XFERRG-1234-1Q</Code>
+			<CodeType>EIC</CodeType>
+		</MarketParticipant>
+	</MarketParticipants>
+	<MessageId>8dbd4023-415f-4c66-b7d8-393fc1d4e785</MessageId>
+	<Version>1</Version>
+</Message>

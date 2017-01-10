@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MessageType>ProductionUnavailability</MessageType>
+	<UnavailabilityType>Planned</UnavailabilityType>
+	<ReasonCode>ForeseenMaintenance</ReasonCode>
+	<EventStatus>Active</EventStatus>
+	<PublicationDate>2016-11-16T11:05:41.1203563Z</PublicationDate>
+	<EventStart>2016-11-24T23:00:00Z</EventStart>
+	<EventStop>2016-11-26T23:00:00Z</EventStop>
+	<Connections/>
+	<Units>
+		<Unit>
+			<UnitType>Production</UnitType>
+			<Name>Test unit</Name>
+			<Eic>21W000000080001L</Eic>
+			<UnitOfMeasurement>MW</UnitOfMeasurement>
+			<Area>
+				<Name>CZ</Name>
+				<Code>10YCZ-CEPS-----N</Code>
+				<CodeType>EIC</CodeType>
+			</Area>
+			<InstalledCapacity>324</InstalledCapacity>
+			<PowerFeedIn xsi:nil="true"/>
+			<FuelType>Biomass</FuelType>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>114</UnavailableCapacity>
+					<AvailableCapacity>210</AvailableCapacity>
+					<EventStart>2016-11-24T23:00:00Z</EventStart>
+					<EventStop>2016-11-26T23:00:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Unit>
+	</Units>
+	<MessageId>27d02fb7-844c-4306-a119-5d3221bb9f87</MessageId>
+	<Version>1</Version>
+</Message>

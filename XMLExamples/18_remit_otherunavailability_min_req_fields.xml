@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MessageType>OtherUnavailability</MessageType>
+	<UnavailabilityType>Unplanned</UnavailabilityType>
+	<ReasonCode xsi:nil="true"/>
+	<EventStatus>Active</EventStatus>
+	<PublicationDate>2016-11-08T00:57:27.1787575Z</PublicationDate>
+	<EventStart>2016-11-23T05:00:00Z</EventStart>
+	<EventStop>2016-11-23T11:00:00Z</EventStop>
+	<UnavailabilityReason>Failure</UnavailabilityReason>
+	<Connections/>
+	<Units>
+		<Unit>
+			<UnitType>Other</UnitType>
+			<Name>Test Unit</Name>
+			<Eic>81W1234512345G45</Eic>
+			<UnitOfMeasurement>MW</UnitOfMeasurement>
+			<Area>
+				<Name>HR</Name>
+				<Code>10YHR-HEP------M</Code>
+				<CodeType>EIC</CodeType>
+			</Area>
+			<InstalledCapacity>450</InstalledCapacity>
+			<PowerFeedIn xsi:nil="true"/>
+			<FuelType xsi:nil="true"/>
+			<TimePeriods>
+				<EventTimePeriod>
+					<UnavailableCapacity>150</UnavailableCapacity>
+					<AvailableCapacity>300</AvailableCapacity>
+					<EventStart>2016-11-23T05:00:00Z</EventStart>
+					<EventStop>2016-11-23T11:00:00Z</EventStop>
+				</EventTimePeriod>
+			</TimePeriods>
+		</Unit>
+	</Units>
+	<MarketParticipants>
+		<MarketParticipant>
+			<Name>FERROATLANTICA, S.A. SOCIEDAD UNIPERSONAL</Name>
+			<Code>18XFERRG-1234-1Q</Code>
+			<CodeType>EIC</CodeType>
+		</MarketParticipant>
+	</MarketParticipants>
+	<MessageId>c107805d-9819-44cb-a288-08e4712f2c0e</MessageId>
+	<Version>1</Version>
+</Message>
