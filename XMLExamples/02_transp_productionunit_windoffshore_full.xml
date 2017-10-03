@@ -1,53 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<MessageType>ProductionUnavailability</MessageType>
-	<UnavailabilityType>Planned</UnavailabilityType>
-	<ReasonCode>ForeseenMaintenance</ReasonCode>
-	<EventStatus>Active</EventStatus>
-	<PublicationDate>2016-11-04T09:20:25.0304067Z</PublicationDate>
-	<EventStart>2016-11-03T23:00:00Z</EventStart>
-	<EventStop>2016-11-05T23:00:00Z</EventStop>
-	<UnavailabilityReason>Maintenance according to plan 123-1WA</UnavailabilityReason>
-	<Remarks>Code: 11-trekl-1P3</Remarks>
-	<Connections/>
-	<Units>
-		<Unit>
-			<UnitType>Production</UnitType>
-			<Name>Test unit</Name>
-			<Eic>21W000000080001L</Eic>
-			<UnitOfMeasurement>MW</UnitOfMeasurement>
-			<Area>
-				<Name>SE3</Name>
-				<Code>10Y1001A1001A46L</Code>
-				<CodeType>EIC</CodeType>
-			</Area>
-			<InstalledCapacity>450</InstalledCapacity>
-			<PowerFeedIn>10</PowerFeedIn>
-			<FuelType>WindOffshore</FuelType>
-			<TimePeriods>
-				<EventTimePeriod>
-					<UnavailableCapacity>150</UnavailableCapacity>
-					<AvailableCapacity>300</AvailableCapacity>
-					<EventStart>2016-11-03T23:00:00Z</EventStart>
-					<EventStop>2016-11-05T23:00:00Z</EventStop>
-				</EventTimePeriod>
-			</TimePeriods>
-		</Unit>
-	</Units>
-	<Assets>
-		<Asset>
-			<Name>132ANGEDALEN-MOSKOG</Name>
-			<Code>50TL000000001046</Code>
-			<CodeType>EIC</CodeType>
-		</Asset>
-	</Assets>
-	<MarketParticipants>
-		<MarketParticipant>
-			<Name>Barclays Bank PLC</Name>
-			<Code>1234567899999</Code>
-			<CodeType>GS1</CodeType>
-		</MarketParticipant>
-	</MarketParticipants>
-	<MessageId>eede8ec8-a5a7-4ec9-b9b6-c9dd7fbe9fc3</MessageId>
-	<Version>1</Version>
+  <MessageId>b11c650e-d2e1-4a11-b4a0-63ffe74f1953</MessageId>
+  <Version>1</Version>
+  <LegacyMessageId xsi:nil="true" />
+  <MessageType>ProductionUnavailability</MessageType>
+  <PublicationDate>2017-10-03T08:42:58.2256177Z</PublicationDate>
+  <EventStatus>Active</EventStatus>
+  <UnavailabilityType>Unplanned</UnavailabilityType>
+  <ReasonCode>ForeseenMaintenance</ReasonCode>
+  <EventStart>2017-10-02T22:00:00Z</EventStart>
+  <EventStop>2017-10-05T22:00:00Z</EventStop>
+  <UnavailabilityReason>Maintenance according to plan 123-1WA</UnavailabilityReason>
+  <Units>
+    <Unit>
+      <UnitType>Production</UnitType>
+      <Name>Test unit</Name>
+      <Eic>21W000000080001L</Eic>
+      <Area>
+        <Name>SE3</Name>
+        <Code>10Y1001A1001A46L</Code>
+        <CodeType>EIC</CodeType>
+      </Area>
+      <InstalledCapacity>450</InstalledCapacity>
+      <UnitOfMeasurement>MW</UnitOfMeasurement>
+      <PowerFeedIn>10</PowerFeedIn>
+      <FuelType>WindOffshore</FuelType>
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>150</UnavailableCapacity>
+          <AvailableCapacity>300</AvailableCapacity>
+          <EventStart>2017-10-02T22:00:00Z</EventStart>
+          <EventStop>2017-10-05T22:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Unit>
+  </Units>
+  <Assets>
+    <Asset>
+      <Name>132ANGEDALEN-MOSKOG</Name>
+      <Code>50TL000000001046</Code>
+      <CodeType>EIC</CodeType>
+    </Asset>
+  </Assets>
+  <MarketParticipants>
+    <MarketParticipant>
+      <Name>Barclays Bank PLC</Name>
+      <Code>A0000163Q.UK</Code>
+      <CodeType>ACER</CodeType>
+    </MarketParticipant>
+  </MarketParticipants>
+  <Publisher>
+    <Id>N01434</Id>
+    <Name>Nord Pool Finland Oy</Name>
+  </Publisher>
 </Message>

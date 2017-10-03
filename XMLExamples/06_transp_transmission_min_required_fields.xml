@@ -1,38 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<MessageType>TransmissionUnavailability</MessageType>
-	<UnavailabilityType>Unplanned</UnavailabilityType>
-	<ReasonCode>Failure</ReasonCode>
-	<EventStatus>Active</EventStatus>
-	<PublicationDate>2016-11-16T11:32:54.4814862Z</PublicationDate>
-	<EventStart>2016-11-22T23:00:00Z</EventStart>
-	<EventStop>2016-11-25T23:00:00Z</EventStop>
-	<Connections>
-		<Connection>
-			<Name>FI → SE3</Name>
-			<InArea>
-				<Name>FI</Name>
-				<Code>10YFI-1--------U</Code>
-				<CodeType>EIC</CodeType>
-			</InArea>
-			<OutArea>
-				<Name>SE3</Name>
-				<Code>10Y1001A1001A46L</Code>
-				<CodeType>EIC</CodeType>
-			</OutArea>
-			<InstalledCapacity>1200</InstalledCapacity>
-			<UnitOfMeasurement/>
-			<TimePeriods>
-				<EventTimePeriod>
-					<UnavailableCapacity>990</UnavailableCapacity>
-					<AvailableCapacity>210</AvailableCapacity>
-					<EventStart>2016-11-22T23:00:00Z</EventStart>
-					<EventStop>2016-11-25T23:00:00Z</EventStop>
-				</EventTimePeriod>
-			</TimePeriods>
-		</Connection>
-	</Connections>
-	<Units/>
-	<MessageId>adb7c30f-f4a0-4621-9412-db74f15a488a</MessageId>
-	<Version>1</Version>
+  <MessageId>ba1f6e03-d73d-41c1-81f2-6cb979900f2f</MessageId>
+  <Version>1</Version>
+  <LegacyMessageId xsi:nil="true" />
+  <MessageType>TransmissionUnavailability</MessageType>
+  <PublicationDate>2017-10-03T08:48:33.945786Z</PublicationDate>
+  <EventStatus>Active</EventStatus>
+  <UnavailabilityType>Unplanned</UnavailabilityType>
+  <ReasonCode>Failure</ReasonCode>
+  <EventStart>2017-10-02T22:00:00Z</EventStart>
+  <EventStop>2017-10-03T22:00:00Z</EventStop>
+  <Connections>
+    <Connection>
+      <Name>FI → SE3</Name>
+      <InArea>
+        <Name>FI</Name>
+        <Code>10YFI-1--------U</Code>
+        <CodeType>EIC</CodeType>
+      </InArea>
+      <OutArea>
+        <Name>SE3</Name>
+        <Code>10Y1001A1001A46L</Code>
+        <CodeType>EIC</CodeType>
+      </OutArea>
+      <InstalledCapacity>1200</InstalledCapacity>
+      <UnitOfMeasurement>MW</UnitOfMeasurement>
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>990</UnavailableCapacity>
+          <AvailableCapacity>210</AvailableCapacity>
+          <EventStart>2017-10-02T22:00:00Z</EventStart>
+          <EventStop>2017-10-03T22:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Connection>
+  </Connections>
+  <Publisher>
+    <Id>N01434</Id>
+    <Name>Nord Pool Finland Oy</Name>
+  </Publisher>
 </Message>

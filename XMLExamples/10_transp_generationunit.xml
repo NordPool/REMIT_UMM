@@ -1,50 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<MessageType>ProductionUnavailability</MessageType>
-	<UnavailabilityType>Planned</UnavailabilityType>
-	<ReasonCode>ForeseenMaintenance</ReasonCode>
-	<EventStatus>Active</EventStatus>
-	<PublicationDate>2016-11-07T23:19:35.7029732Z</PublicationDate>
-	<EventStart>2016-11-09T23:00:00Z</EventStart>
-	<EventStop>2016-11-11T23:00:00Z</EventStop>
-	<UnavailabilityReason>Maintenance-001</UnavailabilityReason>
-	<Remarks>replacement</Remarks>
-	<Connections/>
-	<Units>
-		<Unit>
-			<UnitType>Generation</UnitType>
-			<Name>Test unit</Name>
-			<Eic>21W000000080001L</Eic>
-			<UnitOfMeasurement>MW</UnitOfMeasurement>
-			<Area>
-				<Name>SE3</Name>
-				<Code>10Y1001A1001A46L</Code>
-				<CodeType>EIC</CodeType>
-			</Area>
-			<InstalledCapacity>300</InstalledCapacity>
-			<PowerFeedIn xsi:nil="true"/>
-			<FuelType>HydroWaterReservoir</FuelType>
-			<GenerationInformation>
-				<Name>Test Generation Unit</Name>
-				<InstalledCapacity>300</InstalledCapacity>
-			</GenerationInformation>
-			<TimePeriods>
-				<EventTimePeriod>
-					<UnavailableCapacity>90</UnavailableCapacity>
-					<AvailableCapacity>210</AvailableCapacity>
-					<EventStart>2016-11-09T23:00:00Z</EventStart>
-					<EventStop>2016-11-11T23:00:00Z</EventStop>
-				</EventTimePeriod>
-			</TimePeriods>
-		</Unit>
-	</Units>
-	<MarketParticipants>
-		<MarketParticipant>
-			<Name>Midtjysk Elhandel A/S</Name>
-			<Code>A0000022F.DK</Code>
-			<CodeType>ACER</CodeType>
-		</MarketParticipant>
-	</MarketParticipants>
-	<MessageId>4de8c777-27fb-4549-aee9-d686f281aa50</MessageId>
-	<Version>1</Version>
+  <MessageId>f670f8a6-6b6c-4c36-9893-99ddaebb8654</MessageId>
+  <Version>1</Version>
+  <LegacyMessageId xsi:nil="true" />
+  <MessageType>ProductionUnavailability</MessageType>
+  <PublicationDate>2017-10-03T08:55:36.1480674Z</PublicationDate>
+  <EventStatus>Active</EventStatus>
+  <UnavailabilityType>Planned</UnavailabilityType>
+  <ReasonCode>ForeseenMaintenance</ReasonCode>
+  <EventStart>2017-10-02T22:00:00Z</EventStart>
+  <EventStop>2017-10-03T22:00:00Z</EventStop>
+  <UnavailabilityReason>Maintenance-001</UnavailabilityReason>
+  <Remarks>replacement</Remarks>
+  <Units>
+    <Unit>
+      <UnitType>Generation</UnitType>
+      <Name>Test unit</Name>
+      <Eic>21W000000080001L</Eic>
+      <Area>
+        <Name>SE3</Name>
+        <Code>10Y1001A1001A46L</Code>
+        <CodeType>EIC</CodeType>
+      </Area>
+      <InstalledCapacity>300</InstalledCapacity>
+      <UnitOfMeasurement>MW</UnitOfMeasurement>
+      <PowerFeedIn xsi:nil="true" />
+      <FuelType>HydroWaterReservoir</FuelType>
+      <GenerationInformation>
+        <Name>Test Generation Unit</Name>
+        <Eic>21W000000081001L</Eic>
+        <InstalledCapacity>300</InstalledCapacity>
+      </GenerationInformation>
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>90</UnavailableCapacity>
+          <AvailableCapacity>210</AvailableCapacity>
+          <EventStart>2017-10-02T22:00:00Z</EventStart>
+          <EventStop>2017-10-03T22:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Unit>
+  </Units>
+  <MarketParticipants>
+    <MarketParticipant>
+      <Name>Midtjysk Elhandel A/S</Name>
+      <Code>A0000022F.DK</Code>
+      <CodeType>ACER</CodeType>
+    </MarketParticipant>
+  </MarketParticipants>
+  <Publisher>
+    <Id>N01434</Id>
+    <Name>Nord Pool Finland Oy</Name>
+  </Publisher>
 </Message>

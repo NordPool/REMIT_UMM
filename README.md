@@ -4,7 +4,7 @@ Welcome to the REMIT Urgent Market Message public Repository
 Nord Pool publishes additional useful information and files for REMIT UMM API and FTP developers in this repository.
 
 ## FTP
-Nord Pool provides an FTP service for customers wishing to retrieve UMMs via FTP in XML format. Documentation regarding the FTP feed can be found from our developer portal [https://developers.nordpoolgroup.com/docs/ftp-service](https://developers.nordpoolgroup.com/docs/ftp-service)
+Nord Pool provides an FTP service for customers wishing to retrieve UMMs via FTP in XML format. Documentation regarding the FTP feed can be found from our developer portal [https://developers.nordpoolgroup.com/docs/umm-ftp-introduction](https://developers.nordpoolgroup.com/docs/umm-ftp-introduction)
 
 
 ## Feedback

@@ -1,69 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<MessageType>TransmissionUnavailability</MessageType>
-	<UnavailabilityType>Unplanned</UnavailabilityType>
-	<ReasonCode xsi:nil="true"/>
-	<EventStatus>Active</EventStatus>
-	<PublicationDate>2016-11-08T00:30:32.3858525Z</PublicationDate>
-	<EventStart>2016-11-10T09:00:00Z</EventStart>
-	<EventStop>2016-11-10T14:40:00Z</EventStop>
-	<UnavailabilityReason>failure</UnavailabilityReason>
-	<Connections>
-		<Connection>
-			<Name>EE → LV</Name>
-			<InArea>
-				<Name>EE</Name>
-				<Code>10Y1001A1001A39I</Code>
-				<CodeType>EIC</CodeType>
-			</InArea>
-			<OutArea>
-				<Name>LV</Name>
-				<Code>10YLV-1001A00074</Code>
-				<CodeType>EIC</CodeType>
-			</OutArea>
-			<InstalledCapacity>1000</InstalledCapacity>
-			<UnitOfMeasurement/>
-			<TimePeriods>
-				<EventTimePeriod>
-					<UnavailableCapacity>420</UnavailableCapacity>
-					<AvailableCapacity>580</AvailableCapacity>
-					<EventStart>2016-11-10T09:00:00Z</EventStart>
-					<EventStop>2016-11-10T14:40:00Z</EventStop>
-				</EventTimePeriod>
-			</TimePeriods>
-		</Connection>
-		<Connection>
-			<Name>EE -&gt; FI, capacity: 1016</Name>
-			<InArea>
-				<Name>FI</Name>
-				<Code>10YFI-1--------U</Code>
-				<CodeType>EIC</CodeType>
-			</InArea>
-			<OutArea>
-				<Name>EE</Name>
-				<Code>10Y1001A1001A39I</Code>
-				<CodeType>EIC</CodeType>
-			</OutArea>
-			<InstalledCapacity>1016</InstalledCapacity>
-			<UnitOfMeasurement/>
-			<TimePeriods>
-				<EventTimePeriod>
-					<UnavailableCapacity>316</UnavailableCapacity>
-					<AvailableCapacity>700</AvailableCapacity>
-					<EventStart>2016-11-10T09:00:00Z</EventStart>
-					<EventStop>2016-11-10T14:40:00Z</EventStop>
-				</EventTimePeriod>
-			</TimePeriods>
-		</Connection>
-	</Connections>
-	<Units/>
-	<MarketParticipants>
-		<MarketParticipant>
-			<Name>PVO-Vesivoima Oy</Name>
-			<Code>A00000566.FI</Code>
-			<CodeType>ACER</CodeType>
-		</MarketParticipant>
-	</MarketParticipants>
-	<MessageId>3cdc6de4-d50c-4708-b5ef-e86404f42e36</MessageId>
-	<Version>1</Version>
+  <MessageId>204fb368-786f-4d90-b40d-84b6cbb01d38</MessageId>
+  <Version>1</Version>
+  <LegacyMessageId xsi:nil="true" />
+  <MessageType>TransmissionUnavailability</MessageType>
+  <PublicationDate>2017-10-03T11:53:09.0906342Z</PublicationDate>
+  <EventStatus>Active</EventStatus>
+  <UnavailabilityType>Unplanned</UnavailabilityType>
+  <ReasonCode>Failure</ReasonCode>
+  <EventStart>2017-10-02T22:00:00Z</EventStart>
+  <EventStop>2017-10-03T22:00:00Z</EventStop>
+  <UnavailabilityReason>failure</UnavailabilityReason>
+  <Connections>
+    <Connection>
+      <Name>EE → LV</Name>
+      <InArea>
+        <Name>EE</Name>
+        <Code>10Y1001A1001A39I</Code>
+        <CodeType>EIC</CodeType>
+      </InArea>
+      <OutArea>
+        <Name>LV</Name>
+        <Code>10YLV-1001A00074</Code>
+        <CodeType>EIC</CodeType>
+      </OutArea>
+      <InstalledCapacity>1000</InstalledCapacity>
+      <UnitOfMeasurement>MW</UnitOfMeasurement>
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>420</UnavailableCapacity>
+          <AvailableCapacity>580</AvailableCapacity>
+          <EventStart>2017-10-02T22:00:00Z</EventStart>
+          <EventStop>2017-10-03T22:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Connection>
+    <Connection>
+      <Name>EE → FI</Name>
+      <InArea>
+        <Name>EE</Name>
+        <Code>10Y1001A1001A39I</Code>
+        <CodeType>EIC</CodeType>
+      </InArea>
+      <OutArea>
+        <Name>FI</Name>
+        <Code>10YFI-1--------U</Code>
+        <CodeType>EIC</CodeType>
+      </OutArea>
+      <InstalledCapacity>1016</InstalledCapacity>
+      <UnitOfMeasurement>MW</UnitOfMeasurement>
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>316</UnavailableCapacity>
+          <AvailableCapacity>700</AvailableCapacity>
+          <EventStart>2017-10-02T22:00:00Z</EventStart>
+          <EventStop>2017-10-03T22:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Connection>
+  </Connections>
+  <MarketParticipants>
+    <MarketParticipant>
+      <Name>PVO-Vesivoima Oy</Name>
+      <Code>A00000566.FI</Code>
+      <CodeType>ACER</CodeType>
+    </MarketParticipant>
+  </MarketParticipants>
+  <Publisher>
+    <Id>N01434</Id>
+    <Name>Nord Pool Finland Oy</Name>
+  </Publisher>
 </Message>

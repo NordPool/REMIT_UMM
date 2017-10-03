@@ -1,37 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<MessageType>ConsumptionUnavailability</MessageType>
-	<UnavailabilityType>Planned</UnavailabilityType>
-	<ReasonCode>ForeseenMaintenance</ReasonCode>
-	<EventStatus>Active</EventStatus>
-	<PublicationDate>2016-11-16T11:15:55.6311508Z</PublicationDate>
-	<EventStart>2016-11-28T23:00:00Z</EventStart>
-	<EventStop>2016-11-30T23:00:00Z</EventStop>
-	<Connections/>
-	<Units>
-		<Unit>
-			<UnitType>Consumption</UnitType>
-			<Name>Test Consumption Unit</Name>
-			<Eic>45W123451234512A</Eic>
-			<UnitOfMeasurement>MW</UnitOfMeasurement>
-			<Area>
-				<Name>EE</Name>
-				<Code>10Y1001A1001A39I</Code>
-				<CodeType>EIC</CodeType>
-			</Area>
-			<InstalledCapacity>236</InstalledCapacity>
-			<PowerFeedIn xsi:nil="true"/>
-			<FuelType xsi:nil="true"/>
-			<TimePeriods>
-				<EventTimePeriod>
-					<UnavailableCapacity>113</UnavailableCapacity>
-					<AvailableCapacity>123</AvailableCapacity>
-					<EventStart>2016-11-28T23:00:00Z</EventStart>
-					<EventStop>2016-11-30T23:00:00Z</EventStop>
-				</EventTimePeriod>
-			</TimePeriods>
-		</Unit>
-	</Units>
-	<MessageId>8648f461-abc0-4b04-9d2e-2020f07e6a5e</MessageId>
-	<Version>1</Version>
+  <MessageId>8db9023c-a7d7-4782-b318-ceef1ce9498d</MessageId>
+  <Version>1</Version>
+  <LegacyMessageId xsi:nil="true" />
+  <MessageType>ConsumptionUnavailability</MessageType>
+  <PublicationDate>2017-10-03T08:44:34.1519606Z</PublicationDate>
+  <EventStatus>Active</EventStatus>
+  <UnavailabilityType>Planned</UnavailabilityType>
+  <ReasonCode>ForeseenMaintenance</ReasonCode>
+  <EventStart>2017-10-02T22:00:00Z</EventStart>
+  <EventStop>2017-10-03T22:00:00Z</EventStop>
+  <Units>
+    <Unit>
+      <UnitType>Consumption</UnitType>
+      <Name>Test Consumption Unit</Name>
+      <Eic>45W123451234512A</Eic>
+      <Area>
+        <Name>EE</Name>
+        <Code>10Y1001A1001A39I</Code>
+        <CodeType>EIC</CodeType>
+      </Area>
+      <InstalledCapacity>236</InstalledCapacity>
+      <UnitOfMeasurement>MW</UnitOfMeasurement>
+      <PowerFeedIn xsi:nil="true" />
+      <FuelType xsi:nil="true" />
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>113</UnavailableCapacity>
+          <AvailableCapacity>123</AvailableCapacity>
+          <EventStart>2017-10-02T22:00:00Z</EventStart>
+          <EventStop>2017-10-03T22:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Unit>
+  </Units>
+  <Publisher>
+    <Id>N01434</Id>
+    <Name>Nord Pool Finland Oy</Name>
+  </Publisher>
 </Message>

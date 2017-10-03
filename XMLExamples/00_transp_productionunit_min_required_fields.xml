@@ -1,37 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<MessageType>ProductionUnavailability</MessageType>
-	<UnavailabilityType>Planned</UnavailabilityType>
-	<ReasonCode>ForeseenMaintenance</ReasonCode>
-	<EventStatus>Active</EventStatus>
-	<PublicationDate>2016-11-16T11:05:41.1203563Z</PublicationDate>
-	<EventStart>2016-11-24T23:00:00Z</EventStart>
-	<EventStop>2016-11-26T23:00:00Z</EventStop>
-	<Connections/>
-	<Units>
-		<Unit>
-			<UnitType>Production</UnitType>
-			<Name>Test unit</Name>
-			<Eic>21W000000080001L</Eic>
-			<UnitOfMeasurement>MW</UnitOfMeasurement>
-			<Area>
-				<Name>CZ</Name>
-				<Code>10YCZ-CEPS-----N</Code>
-				<CodeType>EIC</CodeType>
-			</Area>
-			<InstalledCapacity>324</InstalledCapacity>
-			<PowerFeedIn xsi:nil="true"/>
-			<FuelType>Biomass</FuelType>
-			<TimePeriods>
-				<EventTimePeriod>
-					<UnavailableCapacity>114</UnavailableCapacity>
-					<AvailableCapacity>210</AvailableCapacity>
-					<EventStart>2016-11-24T23:00:00Z</EventStart>
-					<EventStop>2016-11-26T23:00:00Z</EventStop>
-				</EventTimePeriod>
-			</TimePeriods>
-		</Unit>
-	</Units>
-	<MessageId>27d02fb7-844c-4306-a119-5d3221bb9f87</MessageId>
-	<Version>1</Version>
+  <MessageId>a5e7c08b-e9e4-440f-ae0b-612632789c39</MessageId>
+  <Version>1</Version>
+  <LegacyMessageId xsi:nil="true" />
+  <MessageType>ProductionUnavailability</MessageType>
+  <PublicationDate>2017-10-03T12:30:49.7402074Z</PublicationDate>
+  <EventStatus>Active</EventStatus>
+  <UnavailabilityType>Planned</UnavailabilityType>
+  <ReasonCode>ForeseenMaintenance</ReasonCode>
+  <EventStart>2017-10-02T22:00:00Z</EventStart>
+  <EventStop>2017-10-03T22:00:00Z</EventStop>
+  <Units>
+    <Unit>
+      <UnitType>Production</UnitType>
+      <Name>Test unit</Name>
+      <Eic>21W000000080001L</Eic>
+      <Area>
+        <Name>CZ</Name>
+        <Code>10YCZ-CEPS-----N</Code>
+        <CodeType>EIC</CodeType>
+      </Area>
+      <InstalledCapacity>324</InstalledCapacity>
+      <UnitOfMeasurement>MW</UnitOfMeasurement>
+      <PowerFeedIn xsi:nil="true" />
+      <FuelType>Biomass</FuelType>
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>114</UnavailableCapacity>
+          <AvailableCapacity>210</AvailableCapacity>
+          <EventStart>2017-10-02T22:00:00Z</EventStart>
+          <EventStop>2017-10-03T22:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Unit>
+  </Units>
+  <Publisher>
+    <Id>N01434</Id>
+    <Name>Nord Pool Finland Oy</Name>
+  </Publisher>
 </Message>

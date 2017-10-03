@@ -1,64 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<MessageType>ProductionUnavailability</MessageType>
-	<UnavailabilityType>Planned</UnavailabilityType>
-	<ReasonCode>ForeseenMaintenance</ReasonCode>
-	<EventStatus>Active</EventStatus>
-	<PublicationDate>2016-11-07T23:53:28.9382254Z</PublicationDate>
-	<EventStart>2016-11-09T23:00:00Z</EventStart>
-	<EventStop>2016-11-13T13:00:00Z</EventStop>
-	<UnavailabilityReason>Maintenance-001</UnavailabilityReason>
-	<Remarks>construction work</Remarks>
-	<Connections/>
-	<Units>
-		<Unit>
-			<UnitType>Production</UnitType>
-			<Name>Test Production Unit</Name>
-			<Eic>12W5432154321W67</Eic>
-			<UnitOfMeasurement>MW</UnitOfMeasurement>
-			<Area>
-				<Name>NO3</Name>
-				<Code>10YNO-3--------J</Code>
-				<CodeType>EIC</CodeType>
-			</Area>
-			<InstalledCapacity>230</InstalledCapacity>
-			<PowerFeedIn>32</PowerFeedIn>
-			<FuelType>WindOffshore</FuelType>
-			<TimePeriods>
-				<EventTimePeriod>
-					<UnavailableCapacity>110</UnavailableCapacity>
-					<AvailableCapacity>120</AvailableCapacity>
-					<EventStart>2016-11-09T23:00:00Z</EventStart>
-					<EventStop>2016-11-12T09:00:00Z</EventStop>
-				</EventTimePeriod>
-				<EventTimePeriod>
-					<UnavailableCapacity>185</UnavailableCapacity>
-					<AvailableCapacity>45</AvailableCapacity>
-					<EventStart>2016-11-12T09:00:00Z</EventStart>
-					<EventStop>2016-11-13T13:00:00Z</EventStop>
-				</EventTimePeriod>
-			</TimePeriods>
-		</Unit>
-	</Units>
-	<Assets>
-		<Asset>
-			<Name>132ANGEDALEN-MOSKOG</Name>
-			<Code>50TL000000001046</Code>
-			<CodeType>EIC</CodeType>
-		</Asset>
-	</Assets>
-	<MarketParticipants>
-		<MarketParticipant>
-			<Name>GemeindeStrom Wadgassen GmbH</Name>
-			<Code>11XPEG-GWW-----K</Code>
-			<CodeType>EIC</CodeType>
-		</MarketParticipant>
-		<MarketParticipant>
-			<Name>Energi Danmark A/S</Name>
-			<Code>11XDISAM-------V</Code>
-			<CodeType>EIC</CodeType>
-		</MarketParticipant>
-	</MarketParticipants>
-	<MessageId>e5844762-4dfb-4141-9892-b4f24729eabf</MessageId>
-	<Version>1</Version>
+  <MessageId>037f64cf-9e61-4b01-ba30-1b90e3fe5c75</MessageId>
+  <Version>1</Version>
+  <LegacyMessageId xsi:nil="true" />
+  <MessageType>ProductionUnavailability</MessageType>
+  <PublicationDate>2017-10-03T08:58:57.4508023Z</PublicationDate>
+  <EventStatus>Active</EventStatus>
+  <UnavailabilityType>Unplanned</UnavailabilityType>
+  <ReasonCode>Failure</ReasonCode>
+  <EventStart>2017-10-02T22:00:00Z</EventStart>
+  <EventStop>2017-10-04T22:00:00Z</EventStop>
+  <UnavailabilityReason>Maintenance-001</UnavailabilityReason>
+  <Remarks>construction work</Remarks>
+  <Units>
+    <Unit>
+      <UnitType>Production</UnitType>
+      <Name>Test Production Unit</Name>
+      <Eic>12W5432154321W67</Eic>
+      <Area>
+        <Name>NO3</Name>
+        <Code>10YNO-3--------J</Code>
+        <CodeType>EIC</CodeType>
+      </Area>
+      <InstalledCapacity>230</InstalledCapacity>
+      <UnitOfMeasurement>MW</UnitOfMeasurement>
+      <PowerFeedIn>32</PowerFeedIn>
+      <FuelType>WindOffshore</FuelType>
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>110</UnavailableCapacity>
+          <AvailableCapacity>120</AvailableCapacity>
+          <EventStart>2017-10-02T22:00:00Z</EventStart>
+          <EventStop>2017-10-03T22:00:00Z</EventStop>
+        </EventTimePeriod>
+        <EventTimePeriod>
+          <UnavailableCapacity>185</UnavailableCapacity>
+          <AvailableCapacity>45</AvailableCapacity>
+          <EventStart>2017-10-03T22:00:00Z</EventStart>
+          <EventStop>2017-10-04T22:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Unit>
+  </Units>
+  <Assets>
+    <Asset>
+      <Name>132ANGEDALEN-MOSKOG</Name>
+      <Code>50TL000000001046</Code>
+      <CodeType>EIC</CodeType>
+    </Asset>
+  </Assets>
+  <MarketParticipants>
+    <MarketParticipant>
+      <Name>GemeindeStrom Wadgassen GmbH</Name>
+      <Code>11XPEG-GWW-----K</Code>
+      <CodeType>EIC</CodeType>
+    </MarketParticipant>
+    <MarketParticipant>
+      <Name>Energi Danmark A/S</Name>
+      <Code>11XDISAM-------V</Code>
+      <CodeType>EIC</CodeType>
+    </MarketParticipant>
+  </MarketParticipants>
+  <Publisher>
+    <Id>N01434</Id>
+    <Name>Nord Pool Finland Oy</Name>
+  </Publisher>
 </Message>

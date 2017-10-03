@@ -1,39 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<MessageType>MarketInformation</MessageType>
-	<UnavailabilityType xsi:nil="true"/>
-	<ReasonCode xsi:nil="true"/>
-	<EventStatus>Active</EventStatus>
-	<PublicationDate>2016-11-08T11:55:35.3041799Z</PublicationDate>
-	<EventStart>2016-11-22T09:00:00Z</EventStart>
-	<EventStop>2016-11-23T13:00:00Z</EventStop>
-	<Remarks>Xth anniversary of this asset. We will have coffe and cake to celebrate.</Remarks>
-	<Connections/>
-	<Units/>
-	<Assets>
-		<Asset>
-			<Name>132ANGEDALEN-MOSKOG</Name>
-			<Code>50TL000000001046</Code>
-			<CodeType>EIC</CodeType>
-		</Asset>
-	</Assets>
-	<MarketParticipants>
-		<MarketParticipant>
-			<Name>PVO Power Management Oy</Name>
-			<Code>A00000285.FI</Code>
-			<CodeType>ACER</CodeType>
-		</MarketParticipant>
-		<MarketParticipant>
-			<Name>Tullynahaw Power Ltd</Name>
-			<Code>47X0000000001394</Code>
-			<CodeType>EIC</CodeType>
-		</MarketParticipant>
-		<MarketParticipant>
-			<Name>Credit Suisse Securities (Europe) Ltd</Name>
-			<Code>A0000186I.UK</Code>
-			<CodeType>ACER</CodeType>
-		</MarketParticipant>
-	</MarketParticipants>
-	<MessageId>a6a21596-8707-4b8b-b0e3-359ee8d80f76</MessageId>
-	<Version>1</Version>
+  <MessageId>c4ee7d5a-54f3-4928-ac98-8669df45cea2</MessageId>
+  <Version>1</Version>
+  <LegacyMessageId xsi:nil="true" />
+  <MessageType>MarketInformation</MessageType>
+  <PublicationDate>2017-10-03T12:28:10.697591Z</PublicationDate>
+  <EventStatus>Active</EventStatus>
+  <UnavailabilityType xsi:nil="true" />
+  <ReasonCode xsi:nil="true" />
+  <EventStart>2017-10-02T22:00:00Z</EventStart>
+  <EventStop>2017-10-03T22:00:00Z</EventStop>
+  <Remarks>Xth anniversary of this asset. We will have coffee and cake to celebrate.</Remarks>
+  <Assets>
+    <Asset>
+      <Name>132ANGEDALEN-MOSKOG</Name>
+      <Code>50TL000000001046</Code>
+      <CodeType>EIC</CodeType>
+    </Asset>
+  </Assets>
+  <Areas>
+    <Area>
+      <Name>AL</Name>
+      <Code>10YAL-KESH-----5</Code>
+      <CodeType>EIC</CodeType>
+    </Area>
+  </Areas>
+  <MarketParticipants>
+    <MarketParticipant>
+      <Name>PVO Power Management Oy</Name>
+      <Code>A00000285.FI</Code>
+      <CodeType>ACER</CodeType>
+    </MarketParticipant>
+    <MarketParticipant>
+      <Name>Tullynahaw Power Ltd</Name>
+      <Code>47X0000000001394</Code>
+      <CodeType>EIC</CodeType>
+    </MarketParticipant>
+    <MarketParticipant>
+      <Name>Credit Suisse Securities (Europe) Ltd</Name>
+      <Code>A0000186I.UK</Code>
+      <CodeType>ACER</CodeType>
+    </MarketParticipant>
+  </MarketParticipants>
+  <Publisher>
+    <Id>N01434</Id>
+    <Name>Nord Pool Finland Oy</Name>
+  </Publisher>
 </Message>

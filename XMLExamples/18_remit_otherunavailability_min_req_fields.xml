@@ -1,45 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<MessageType>OtherUnavailability</MessageType>
-	<UnavailabilityType>Unplanned</UnavailabilityType>
-	<ReasonCode xsi:nil="true"/>
-	<EventStatus>Active</EventStatus>
-	<PublicationDate>2016-11-08T00:57:27.1787575Z</PublicationDate>
-	<EventStart>2016-11-23T05:00:00Z</EventStart>
-	<EventStop>2016-11-23T11:00:00Z</EventStop>
-	<UnavailabilityReason>Failure</UnavailabilityReason>
-	<Connections/>
-	<Units>
-		<Unit>
-			<UnitType>Other</UnitType>
-			<Name>Test Unit</Name>
-			<Eic>81W1234512345G45</Eic>
-			<UnitOfMeasurement>MW</UnitOfMeasurement>
-			<Area>
-				<Name>HR</Name>
-				<Code>10YHR-HEP------M</Code>
-				<CodeType>EIC</CodeType>
-			</Area>
-			<InstalledCapacity>450</InstalledCapacity>
-			<PowerFeedIn xsi:nil="true"/>
-			<FuelType xsi:nil="true"/>
-			<TimePeriods>
-				<EventTimePeriod>
-					<UnavailableCapacity>150</UnavailableCapacity>
-					<AvailableCapacity>300</AvailableCapacity>
-					<EventStart>2016-11-23T05:00:00Z</EventStart>
-					<EventStop>2016-11-23T11:00:00Z</EventStop>
-				</EventTimePeriod>
-			</TimePeriods>
-		</Unit>
-	</Units>
-	<MarketParticipants>
-		<MarketParticipant>
-			<Name>FERROATLANTICA, S.A. SOCIEDAD UNIPERSONAL</Name>
-			<Code>18XFERRG-1234-1Q</Code>
-			<CodeType>EIC</CodeType>
-		</MarketParticipant>
-	</MarketParticipants>
-	<MessageId>c107805d-9819-44cb-a288-08e4712f2c0e</MessageId>
-	<Version>1</Version>
+  <MessageId>45b7011f-6c8e-4501-9915-9955e45189b6</MessageId>
+  <Version>1</Version>
+  <LegacyMessageId xsi:nil="true" />
+  <MessageType>OtherUnavailability</MessageType>
+  <PublicationDate>2017-10-03T12:00:32.2072026Z</PublicationDate>
+  <EventStatus>Active</EventStatus>
+  <UnavailabilityType>Unplanned</UnavailabilityType>
+  <ReasonCode>Failure</ReasonCode>
+  <EventStart>2017-10-02T22:00:00Z</EventStart>
+  <EventStop>2017-10-03T22:00:00Z</EventStop>
+  <UnavailabilityReason>Failure</UnavailabilityReason>
+  <Units>
+    <Unit>
+      <UnitType>Other</UnitType>
+      <Name>Test Unit</Name>
+      <Eic>34W1234512345E34</Eic>
+      <Area>
+        <Name>FI</Name>
+        <Code>10YFI-1--------U</Code>
+        <CodeType>EIC</CodeType>
+      </Area>
+      <InstalledCapacity>450</InstalledCapacity>
+      <UnitOfMeasurement>MW</UnitOfMeasurement>
+      <PowerFeedIn xsi:nil="true" />
+      <FuelType xsi:nil="true" />
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>150</UnavailableCapacity>
+          <AvailableCapacity>300</AvailableCapacity>
+          <EventStart>2017-10-02T22:00:00Z</EventStart>
+          <EventStop>2017-10-03T22:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Unit>
+  </Units>
+  <MarketParticipants>
+    <MarketParticipant>
+      <Name>FERROATLANTICA, S.A. SOCIEDAD UNIPERSONAL</Name>
+      <Code>18XFERRG-1234-1Q</Code>
+      <CodeType>EIC</CodeType>
+    </MarketParticipant>
+  </MarketParticipants>
+  <Publisher>
+    <Id>N01434</Id>
+    <Name>Nord Pool Finland Oy</Name>
+  </Publisher>
 </Message>

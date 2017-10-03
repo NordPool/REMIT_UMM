@@ -1,57 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<MessageType>OtherUnavailability</MessageType>
-	<UnavailabilityType>Planned</UnavailabilityType>
-	<ReasonCode>ForeseenMaintenance</ReasonCode>
-	<EventStatus>Active</EventStatus>
-	<PublicationDate>2016-11-08T01:06:08.9127359Z</PublicationDate>
-	<EventStart>2016-11-16T23:00:00Z</EventStart>
-	<EventStop>2016-11-19T05:00:00Z</EventStop>
-	<UnavailabilityReason>Maintenance-001</UnavailabilityReason>
-	<Remarks>annual maintenance work</Remarks>
-	<Connections/>
-	<Units>
-		<Unit>
-			<UnitType>Other</UnitType>
-			<Name>Test unit</Name>
-			<Eic>98W1234512345R99</Eic>
-			<UnitOfMeasurement>MW</UnitOfMeasurement>
-			<Area>
-				<Name>AT</Name>
-				<Code>10YAT-APG------L</Code>
-				<CodeType>EIC</CodeType>
-			</Area>
-			<InstalledCapacity>1000</InstalledCapacity>
-			<PowerFeedIn xsi:nil="true"/>
-			<FuelType xsi:nil="true"/>
-			<TimePeriods>
-				<EventTimePeriod>
-					<UnavailableCapacity>667</UnavailableCapacity>
-					<AvailableCapacity>333</AvailableCapacity>
-					<EventStart>2016-11-16T23:00:00Z</EventStart>
-					<EventStop>2016-11-18T10:00:00Z</EventStop>
-				</EventTimePeriod>
-				<EventTimePeriod>
-					<UnavailableCapacity>20</UnavailableCapacity>
-					<AvailableCapacity>980</AvailableCapacity>
-					<EventStart>2016-11-18T10:00:00Z</EventStart>
-					<EventStop>2016-11-19T05:00:00Z</EventStop>
-				</EventTimePeriod>
-			</TimePeriods>
-		</Unit>
-	</Units>
-	<MarketParticipants>
-		<MarketParticipant>
-			<Name>PVO Power Management Oy</Name>
-			<Code>A00000285.FI</Code>
-			<CodeType>ACER</CodeType>
-		</MarketParticipant>
-		<MarketParticipant>
-			<Name>Tullynahaw Power Ltd</Name>
-			<Code>47X0000000001394</Code>
-			<CodeType>EIC</CodeType>
-		</MarketParticipant>
-	</MarketParticipants>
-	<MessageId>a9129764-a501-4f43-9978-e325f94809a8</MessageId>
-	<Version>1</Version>
+  <MessageId>7189c797-1ebf-4191-b93a-3bb1313b1b75</MessageId>
+  <Version>1</Version>
+  <LegacyMessageId xsi:nil="true" />
+  <MessageType>OtherUnavailability</MessageType>
+  <PublicationDate>2017-10-03T12:24:02.8528348Z</PublicationDate>
+  <EventStatus>Active</EventStatus>
+  <UnavailabilityType>Planned</UnavailabilityType>
+  <ReasonCode>ForeseenMaintenance</ReasonCode>
+  <EventStart>2017-10-02T22:00:00Z</EventStart>
+  <EventStop>2017-10-04T22:00:00Z</EventStop>
+  <UnavailabilityReason>Maintenance-001</UnavailabilityReason>
+  <Remarks>annual maintenance work</Remarks>
+  <Units>
+    <Unit>
+      <UnitType>Other</UnitType>
+      <Name>Test Unit</Name>
+      <Eic>98W1234512345R99</Eic>
+      <Area>
+        <Name>AT</Name>
+        <Code>10YAT-APG------L</Code>
+        <CodeType>EIC</CodeType>
+      </Area>
+      <InstalledCapacity>1000</InstalledCapacity>
+      <UnitOfMeasurement>MW</UnitOfMeasurement>
+      <PowerFeedIn xsi:nil="true" />
+      <FuelType xsi:nil="true" />
+      <TimePeriods>
+        <EventTimePeriod>
+          <UnavailableCapacity>667</UnavailableCapacity>
+          <AvailableCapacity>333</AvailableCapacity>
+          <EventStart>2017-10-02T22:00:00Z</EventStart>
+          <EventStop>2017-10-03T22:00:00Z</EventStop>
+        </EventTimePeriod>
+        <EventTimePeriod>
+          <UnavailableCapacity>20</UnavailableCapacity>
+          <AvailableCapacity>980</AvailableCapacity>
+          <EventStart>2017-10-03T22:00:00Z</EventStart>
+          <EventStop>2017-10-04T22:00:00Z</EventStop>
+        </EventTimePeriod>
+      </TimePeriods>
+    </Unit>
+  </Units>
+  <MarketParticipants>
+    <MarketParticipant>
+      <Name>PVO Power Management Oy</Name>
+      <Code>A00000285.FI</Code>
+      <CodeType>ACER</CodeType>
+    </MarketParticipant>
+    <MarketParticipant>
+      <Name>Tullynahaw Power Ltd</Name>
+      <Code>47X0000000001394</Code>
+      <CodeType>EIC</CodeType>
+    </MarketParticipant>
+  </MarketParticipants>
+  <Publisher>
+    <Id>N01434</Id>
+    <Name>Nord Pool Finland Oy</Name>
+  </Publisher>
 </Message>
